@@ -1,12 +1,11 @@
 # Inbox
 
-- Here you can write disorganised notes to be categorised later
-- Bullet points are useful, but it could be free form text as well
-- Sometimes it's better to just get things off your mind quickly, rather than stop to think where it belongs
-- But don't let this list get too long
-- Move information to more specific documents and link to them.
-  - This helps you navigate between documents quickly
-  - For example, you can `Cmd`+`Click` (`Ctrl`+`Click` in Windows) this: [[todo]]
-- Some notes don't end up making sense the next day
-- That's ok, you can just delete them!
-  - You can always find them in your git history, if you really need it!
+## 设计原则
+
+- 识别应用中变化的方面，把它们和不变的方面分开。
+- 针对接口编程，而不是针对实现编程。
+- 优先使用组合而不是对象。
+
+## 策略模式
+
+策略模式定义了一个算法族，分别封装起来，使得它们之间可以互相变换。策略让算法的变化独立于使用它的用户。
