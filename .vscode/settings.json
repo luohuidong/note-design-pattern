@@ -20,5 +20,6 @@
   "files.insertFinalNewline": true,
   "markdown.styles": [".vscode/custom-tag-style.css"],
   "gitdoc.enabled": true,
-  "foam.files.newNotePath": "currentDir"
+  "foam.files.newNotePath": "currentDir",
+  "workbench.colorTheme": "Gray Matter Light"
 }
